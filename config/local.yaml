@@ -1,0 +1,8 @@
+env: "local" 
+storage_path: "/home/yaroslav/go/src/url-shortener/storage/storage.db" 
+http.server: 
+    adress: "localhost:8082"
+    timeout: 4s
+    idle-timeout: 60s
+    user: "myuser"
+    password: "mypass"
